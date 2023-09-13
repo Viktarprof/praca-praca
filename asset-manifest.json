@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/praca-praca/static/css/main.84fbdfcb.css",
+    "main.js": "/praca-praca/static/js/main.0fbb9aad.js",
+    "index.html": "/praca-praca/index.html",
+    "main.84fbdfcb.css.map": "/praca-praca/static/css/main.84fbdfcb.css.map",
+    "main.0fbb9aad.js.map": "/praca-praca/static/js/main.0fbb9aad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84fbdfcb.css",
+    "static/js/main.0fbb9aad.js"
+  ]
+}

@@ -1,0 +1,29 @@
+.containerSelect{
+    position: relative;
+}
+
+svg{
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+
+.selectDate{
+    width: 150px;
+    height: 30px;
+
+    padding: 0 0 0 30px;
+
+    border: 1px solid var(--select);
+    border-radius: 50px;
+    color: var(--text);
+    font-size: 10px;
+
+    appearance: none;
+    background: url('../../../media/arrow.png') no-repeat right;
+    background-size: 15px ;
+    background-position-x: calc(100% - 8px);
+
+    cursor: pointer;
+}
+

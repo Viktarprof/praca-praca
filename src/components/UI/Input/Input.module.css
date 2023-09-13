@@ -1,0 +1,27 @@
+.checkbox{
+    display: none;
+}
+.checkbox + label{
+    width: 15px;
+    height: 15px;
+
+    display: block;
+
+    border: 1px solid #bebdbd;  
+    border-radius: 4px;  
+
+    text-align: center;  
+
+    cursor: pointer;
+   
+}
+
+.checkbox:checked + label{
+    border: 1px solid var(--select); 
+    content: url('../../../media/checkmark.png');  
+    color: #ffffff;
+    background: var(--select);
+}
+.checkbox:checked + label + p {
+    color: var(--select);
+}

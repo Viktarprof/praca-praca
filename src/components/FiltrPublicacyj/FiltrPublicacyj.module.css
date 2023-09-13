@@ -1,0 +1,52 @@
+.containerFilter {
+  width: 350px;
+  height: 100px;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  border: 1px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.605);
+}
+
+.filter {
+  width: 300px;
+  height: 50px;
+
+  padding: 4px 0 0 10px;
+
+  border: 1px solid var(--select);
+  border-radius: 50px;
+
+  color: var(--text);
+  font-family: "Duru Sans", sans-serif;
+  font-size: 10px;
+
+  background: url("../../media/arrow.png") no-repeat right;
+  background-size: 15px;
+  background-position-x: calc(100% - 8px);
+
+  cursor: pointer;
+}
+
+.window {
+  width: 310px;
+
+  padding: 15px 10px 15px 10px;
+
+  display: flex;
+  justify-content: space-around;
+
+  border: 1px solid var(--select);
+  border-radius: 15px;
+
+  color: var(--text);
+  font-family: "Duru Sans", sans-serif;
+  font-size: 10px;
+
+  background-color: rgb(255, 255, 255);
+}

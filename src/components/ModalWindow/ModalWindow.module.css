@@ -1,0 +1,50 @@
+img{
+    width: 20px;
+    height: 20px;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.5); 
+    cursor: pointer;
+}
+
+.groupFilter{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.itemList{
+    display: flex;
+    gap: 5px;
+}
+
+.item{
+    width: 90px;
+    height: 25px;
+
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+
+.activeItem{
+    width: 90px;
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 0 0 0 10px;
+
+    border: 1px solid var(--select);
+    border-radius:  7px;
+}
+
+h4, p{
+    color: black;
+}
